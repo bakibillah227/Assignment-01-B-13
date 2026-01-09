@@ -211,7 +211,7 @@ header .banner {
 
 /* Second brain section styles */
 
-.second-brain{
+.second-brain {
   margin-top: 120px;
   display: flex;
   width: 100%;
@@ -222,12 +222,12 @@ header .banner {
   gap: 80px;
 }
 
-.second-brain .image-container{
+.second-brain .image-container {
   max-width: 100%;
   height: auto;
 }
 
-.content-container .sub-title{
+.content-container .sub-title {
   color: #469165;
   font-size: 16px;
   font-weight: 600;
@@ -235,28 +235,87 @@ header .banner {
   margin-bottom: 16px;
 }
 
-.content-container h3{
+.content-container h3 {
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
   margin-bottom: 16px;
 }
 
-.content-container .description{
+.content-container .description {
   color: #627382;
   margin-bottom: 40px;
   font-size: 16px;
 }
 
-.feature-list{
+.feature-list {
   list-style: none;
 }
 
-.feature-list li{
+.feature-list li {
   margin-bottom: 16px;
   display: flex;
   align-items: center;
   gap: 12px;
   font-size: 16px;
   font-weight: 500;
+}
+
+/* Early Access Section Styles */
+
+.early-access {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.early-access-card {
+  background: #f7f6f2ff;
+  padding: 80px 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.early-access-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.early-access-description {
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 24px;
+}
+
+.early-access .btn-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #30b868;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+
+.btn-4:hover {
+  background-color: #2a9d48;
+  cursor: pointer;
+}
+
+.early-access-content {
+  font-size: 16px;
+  color: #627382;
 }
