@@ -208,3 +208,55 @@ header .banner {
   font-weight: 400;
   line-height: 20px;
 }
+
+/* Second brain section styles */
+
+.second-brain{
+  margin-top: 120px;
+  display: flex;
+  width: 100%;
+  max-width: 1800px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.second-brain .image-container{
+  max-width: 100%;
+  height: auto;
+}
+
+.content-container .sub-title{
+  color: #469165;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.content-container h3{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 16px;
+}
+
+.content-container .description{
+  color: #627382;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.feature-list{
+  list-style: none;
+}
+
+.feature-list li{
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 500;
+}
